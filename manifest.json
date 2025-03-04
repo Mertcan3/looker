@@ -3,7 +3,7 @@
     {
       "id": "testimonialSlider",
       "label": "Testimonial Slider",
-      "script": "https://opsisdigital.com/looker/testimonial_slider/visualization.js"
+      "script": "https://raw.githubusercontent.com/Mertcan3/looker/refs/heads/main/visualization.js"
     }
   ]
 }
