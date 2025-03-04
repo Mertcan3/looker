@@ -1,9 +1,22 @@
 {
+  "configurationVersion": 2,
   "visualizations": [
     {
       "id": "testimonialSlider",
       "label": "Testimonial Slider",
-      "script": "https://raw.githubusercontent.com/Mertcan3/looker/refs/heads/main/visualization.js"
+      "description": "Kullanıcı yorumlarını kayan bir formatta gösteren özel Looker Studio bileşeni.",
+      "icon": "https://opsisdigital.com/looker/testimonial_slider/icon.png",
+      "script": "https://raw.githubusercontent.com/Mertcan3/looker/refs/heads/main/visualization.js",
+      "style": "https://opsisdigital.com/looker/testimonial_slider/style.css",
+      "enableCrossOrigin": true,
+      "capabilities": ["filters", "sorting"],
+      "defaultOptions": {
+        "fontSize": "18px",
+        "transitionTime": 3000
+      },
+      "dataTypes": ["string"],
+      "minDataPoints": 1,
+      "maxDataPoints": 1000
     }
   ]
 }
